@@ -58,7 +58,7 @@ const Sales: React.FC = () => {
     status: 'new',
     leadSource: '',
     notes: '',
-    amount: ''
+
   });
 
   // Opportunity form state
