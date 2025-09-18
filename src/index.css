@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom gradient background inspired by the uploaded image */
+body {
+  background: linear-gradient(135deg, 
+    rgba(134, 239, 172, 0.8) 0%,     /* Light green */
+    rgba(167, 243, 208, 0.6) 25%,    /* Soft green */
+    rgba(240, 253, 244, 0.4) 50%,    /* Very light green/white */
+    rgba(186, 230, 253, 0.6) 75%,    /* Light blue */
+    rgba(125, 211, 252, 0.8) 100%    /* Soft blue */
+  );
+  background-attachment: fixed;
+  min-height: 100vh;
+}
